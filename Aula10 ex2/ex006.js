@@ -1,20 +1,12 @@
-var a = document.getElementById('area')
-a.addEventListener('click', clicar)
-a.addEventListener('mouseenter', entrou)
-a.addEventListener('mouseout', saiu)
+function somar(){
+    var tn1 = document.getElementById("txtn1")
+    var tn2 = document.getElementById("txtn2")
+    var res = document.getElementById('res')
 
+    var n1 = Number(tn1.value)
+    var n2 = Number(tn2.value)
 
+    var s = n1 + n2
 
-function clicar(){
-    a.innerHTML = 'Clicou'
-    a.style.background = 'red'
-}
-
-function entrou(){
-    a.innerHTML = 'Entrou'
-}
-
-function saiu(){
-    a.innerHTML= 'Saiu'
-    a.style.background = 'green'
+    res.innerText = `A soma entre ${n1} e ${n2} é igual a ${s}`
 }
