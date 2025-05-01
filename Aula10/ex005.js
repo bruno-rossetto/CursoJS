@@ -1,4 +1,16 @@
+var a = document.getElementById('area')
+
+
 function clicar(){
-    var a = document.getElementById('area')
     a.innerHTML = 'Clicou'
+    a.style.background = 'red'
+}
+
+function entrou(){
+    a.innerHTML = 'Entrou'
+}
+
+function saiu(){
+    a.innerHTML= 'Saiu'
+    a.style.background = 'green'
 }
