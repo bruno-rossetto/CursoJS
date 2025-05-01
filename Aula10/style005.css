@@ -3,3 +3,12 @@ body{
     color: white;
     font: normal 18pt Arial ;
 }
+
+#area{
+    background: rgb(60, 207, 60);
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
