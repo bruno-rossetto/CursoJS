@@ -1,4 +1,8 @@
 var a = document.getElementById('area')
+a.addEventListener('click', clicar)
+a.addEventListener('mouseenter', entrou)
+a.addEventListener('mouseout', saiu)
+
 
 
 function clicar(){
