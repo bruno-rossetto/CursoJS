@@ -18,9 +18,14 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
 }
 
+#foto{
+    display: flex;
+    justify-content: center;
+}
+
 #imagem{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
