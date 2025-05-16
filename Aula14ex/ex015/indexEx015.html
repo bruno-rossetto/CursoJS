@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Aula14ex/ex015/styleEx015.css">
-    <title>Hora do dia</title>
+    <title>Super contador</title>
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Vamos contar</h1>
     </header>
 
     <section>
-        <div id="mensagem">
-            <p>Aqui vai aparecer a mensagem...</p>
+        <div id="inicio">
+            <p>Início:</p>
+            <input type="number" name="inicioContador" id="inicioContador">
         </div>
 
-        <div id="foto">
-            <img id="imagem" src="/Aula12 ex4/ex013/img/fotoManhã.jpg" alt="">
+        <div id="fim">
+            <p>Fim:</p>
+            <input type="number" name="fimContador" id="fimContador">
+        </div>
+
+        <div id="passo">
+            <p>Passo:</p>
+            <input type="number" name="passoContador" id="passoContador">
+        </div>
+
+        <div id="botao">
+            <button onclick="contar()">Contar</button>
+        </div>
+
+        <div>
+            <p id="resultado">Preparando a contagem...</p>
         </div>
     </section>
 

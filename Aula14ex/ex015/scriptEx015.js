@@ -1,18 +1,15 @@
-function carregar(){
-    var mensagem = document.getElementById('mensagem')
-    var imagem = document.getElementById('imagem')
-    var data = new Date()
-    var hora = data.getHours()
+function contar(){
+    var inicio = document.getElementById('inicioContador')
+    var fim = document.getElementById('fimContador')
+    var passo = document.getElementById('passoContador')
+    var mensagemResultado = document.getElementById('resultado')
+    var resultado = 0 
     
-    mensagem.innerHTML = `Agora são ${hora} horas.`
-    if(hora >= 0 && hora < 12){
-        imagem.src = '/Aula12/ex013/img/fotoManhã.jpg'
-        document.body.style.background = '#e2cd9f'
-    } else if(hora >= 12 && hora < 18){
-        imagem.src = '/Aula12/ex013/img/fotoTarde.jpg'
-        document.body.style.background = '#b9846f'
-    }else {
-        imagem.src = '/Aula12/ex013/img/fotoNoite.jpg'
-        document.body.style.background = '#515154'
+    
+    
+    for(var numero = inicio; numero <= fim; numero += passo){
+        resultado += numero
     }
+    console.log(resultado)
+    return resultado
 }
