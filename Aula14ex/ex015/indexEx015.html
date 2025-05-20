@@ -12,27 +12,22 @@
     </header>
 
     <section>
-        <div id="inicio">
-            <p>Início:</p>
-            <input type="number" name="inicioContador" id="inicioContador">
-        </div>
+        <div id="dados">
+            <p>Início: <input type="number" name="inicioContador" id="inicioContador">
+</p>
+            
+            <p>Fim: <input type="number" name="fimContador" id="fimContador"></p>
+            
 
-        <div id="fim">
-            <p>Fim:</p>
-            <input type="number" name="fimContador" id="fimContador">
+            <p>Passo: <input type="number" name="passoContador" id="passoContador"></p>
+            
+        
+            <p><button onclick="contar()">Contar</button></p>
         </div>
-
-        <div id="passo">
-            <p>Passo:</p>
-            <input type="number" name="passoContador" id="passoContador">
-        </div>
-
-        <div id="botao">
-            <button onclick="contar()">Contar</button>
-        </div>
-
-        <div>
-            <p id="resultado">Preparando a contagem...</p>
+            
+        
+        <div id="resultado">
+            <p>Preparando a contagem...</p>
         </div>
     </section>
 

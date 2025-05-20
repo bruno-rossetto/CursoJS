@@ -21,7 +21,8 @@ section{
 div{
     padding: 8px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 div p{
