@@ -6,6 +6,6 @@ function parImpar(n){
     }
 }
 
-let resultado = parImpar(4)
+let resultado = parImpar(11)
 
 console.log(resultado)
