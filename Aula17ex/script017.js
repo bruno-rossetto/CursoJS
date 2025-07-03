@@ -41,6 +41,7 @@ function finalizar(){
         let total = valores.length
 
         resultado.innerHTML = ''
-        resultado.innerHTML += ``
+        resultado.innerHTML += `<p>Ao todo, temos ${total} nùmeros cadastrados.</p>`
+        
     }
 }
