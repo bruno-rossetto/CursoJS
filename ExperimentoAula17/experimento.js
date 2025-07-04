@@ -56,13 +56,11 @@ function finalizar(){
 
 
         resultado.innerHTML = ``
-        resultado.innerHTML = `<p>Ao todo, temos ${total} números cadastrados</p>`
-        resultado.innerHTML = `<p>O maior número informado é ${maior}</p>`
-        resultado.innerHTML = `<p>O menor número informado é ${menor}</p>`
-        resultado.innerHTML = `<p>A soma dos valores informados é ${soma}</p>`
-
-
-
+        resultado.innerHTML += `<p>Ao todo, temos ${total} números cadastrados</p>`
+        resultado.innerHTML += `<p>O maior número informado é ${maior}</p>`
+        resultado.innerHTML += `<p>O menor número informado é ${menor}</p>`
+        resultado.innerHTML += `<p>A soma dos valores informados é ${soma}</p>`
+        resultado.innerHTML += `<p>A média dos valores é ${media}</p>`
 
     }
 }
