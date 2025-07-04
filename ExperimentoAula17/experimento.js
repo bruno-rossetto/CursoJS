@@ -39,6 +39,30 @@ function finalizar(){
     if(valores.length == 0){
         window.alert('Adicione valores para finalizar.')
     }else{
-        
+        let total = valores.length
+        let maior = valores[0]
+        let menor = valores[0]
+        let soma = 0
+        let media = 0
+
+        for(let pos in valores){
+            soma += valores[pos]
+            if(valores[pos] > maior)
+                maior = valores[pos]
+            if(valores[pos] < menor)
+                menor = valores[pos]
+        }
+        media = soma / total
+
+
+        resultado.innerHTML = ``
+        resultado.innerHTML = `<p>Ao todo, temos ${total} números cadastrados</p>`
+        resultado.innerHTML = `<p>O maior número informado é ${maior}</p>`
+        resultado.innerHTML = `<p>O menor número informado é ${menor}</p>`
+        resultado.innerHTML = `<p>A soma dos valores informados é ${soma}</p>`
+
+
+
+
     }
 }
