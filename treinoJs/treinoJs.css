@@ -15,6 +15,13 @@
     width: 60px;
 }
 
+#divBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
 #botoesCabecalho{
     width: 70px;
     height: 40px;
@@ -24,6 +31,9 @@
     color: white;
     transition: 0.3s ease-in-out  ;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #botoesCabecalho:hover{
@@ -68,6 +78,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+
 #botaoTeste{
     width: 70px;
     height: 40px;
@@ -91,11 +102,66 @@ input[type=number]::-webkit-outer-spin-button {
     justify-content: space-around;
 }
 
+#segundoTeste{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#divNumero{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#botaoColocar{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out  ;
+    cursor: pointer;
+}
+
+#botaoColocar:hover{
+    background-color: white;
+    color: black;
+}
+
+#divLista{
+
+}
+
+#lista{
+    width: 210px;
+}
+
+#botaoEnviar{
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out  ;
+    cursor: pointer;
+}
+
+#botaoEnviar:hover{
+    background-color: white;
+    color: black;
+}
+
 #rodaPe{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     bottom:0%;
     width: 100%;
     background-color: rgb(255, 230, 128);
