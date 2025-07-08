@@ -12,3 +12,5 @@ function enviar(){
     idade.value = ''
     nome.focus()
 }
+
+

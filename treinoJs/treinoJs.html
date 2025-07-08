@@ -47,14 +47,14 @@
 
         <div id="segundoTeste">
             <div id="divNumero">
-                <p>Digite um número:</p>
+                <p>Digite um número de 1 a 100:</p>
                 <input type="number" name="numero" id="numero">
-                <button id="botaoColocar">Colocar</button>
+                <button id="botaoColocar" onclick="colocar()">Colocar</button>
             </div>
 
             <div id="divLista">
-                <select name="lista" id="lista"></select>
-                <button id="botaoEnviar">Enviar</button>
+                <select name="lista" id="lista" size="6"></select>
+                <button id="botaoEnviar" onclick="enviar()">Enviar</button>
             </div>
 
             <div id="divResutado2">
@@ -66,7 +66,8 @@
     <footer id="rodaPe">
         <p>&copy; Bruno Rossetto</p>
     </footer>
-    <script src="/treinoJs/treinoJs.js"></script>
+    <script src="/treinoJs/primeiroTeste.js"></script>
+    <script src="/treinoJs/segundoTeste.js"></script>
     <script src="/treinoJs/scroll.js"></script>
 </body>
 </html>
