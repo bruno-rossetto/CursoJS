@@ -19,28 +19,49 @@
 
         <div id="divBotoes">
             <button id="botoesCabecalho">Início</button>
-            <button id="botoesCabecalho">Teste</button>
+            <button id="botoesCabecalho">Teste 1</button>
+            <button id="botoesCabecalho">Teste 2</button>
             <button id="botoesCabecalho">Fim</button>
         </div>
     </header>
     <section id="corpoTestes">
-        <div id="divNome">
-            <p>Digite seu nome:</p>
-            <input type="text" name="nome" id="inputNome">
-        </div>
-        
-        <div id="divIdade">
-            <p>Digite sua idade:</p>
-            <input type="number" name="idade" id="inputIdade">
+        <div id="primeiroTeste">
+            <div id="divNome">
+                <p>Digite seu nome:</p>
+                <input type="text" name="nome" id="inputNome">
+            </div>
+
+            <div id="divIdade">
+                <p>Digite sua idade:</p>
+                <input type="number" name="idade" id="inputIdade">
+            </div>
+
+            <div id="divBotaoTeste">
+                <button id="botaoTeste" onclick="enviar()">Enviar</button>
+            </div>
+
+            <div id="divResultado">
+                <p id="resultado"></p>
+            </div>
         </div>
 
-        <div id="divBotaoTeste">
-            <button id="botaoTeste" onclick="enviar()">Enviar</button>
-        </div>
+        <div id="segundoTeste">
+            <div id="divNumero">
+                <p>Digite um número:</p>
+                <input type="number" name="numero" id="numero">
+                <button id="botaoColocar">Colocar</button>
+            </div>
 
-        <div id="divResultado">
-            <p id="resultado"></p>
+            <div id="divLista">
+                <select name="lista" id="lista"></select>
+                <button id="botaoEnviar">Enviar</button>
+            </div>
+
+            <div id="divResutado2">
+                <p id="resultado2"></p>
+            </div>  
         </div>
+    
     </section>
     <footer id="rodaPe">
         <p>&copy; Bruno Rossetto</p>
